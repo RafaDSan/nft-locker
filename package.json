@@ -1,0 +1,19 @@
+{
+  "name": "nft-locker-training",
+  "version": "1.0.0",
+  "description": "Gets an ERC-721 that reverts in case it is not an NFT. Hold this NFT for a time. After this time enable button to unlock NFT and send it back.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^5.4.0",
+    "@types/node": "^22.19.1",
+    "hardhat": "^3.0.15",
+    "typescript": "~5.8.0"
+  }
+}
